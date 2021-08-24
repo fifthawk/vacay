@@ -1,0 +1,23 @@
+.townContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-image: url(../../Images/image6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.25em;
+    margin-top: 1em;
+}
+
+
+
+.townContainer a {
+    color: rgb(255, 251, 251);
+}
+
+.townContainer h1 {
+    font-size: 3em;
+    color: hsl(0, 8%, 95%)
+}

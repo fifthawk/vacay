@@ -1,0 +1,37 @@
+
+.thingsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+.thingsContainer h1 {
+    font-size: 4em;
+    color: hsl(86, 90%, 54%);
+    background: hsl(71, 74%, 85%);
+    border-radius: .75em;
+    padding: .5em;
+    margin: 1em
+
+}
+
+.thingsContainer h3 {
+    font-size: 3em;
+    color: red;
+    background: hsl(180, 73%, 65%);
+    border-radius: .5em;
+    padding: .5em;
+    margin: 1em
+}
+
+.thingsContainer a {
+    background-color: hsl(300, 96%, 82%);
+    border-radius: .25em;
+    font-size: 2em;
+    padding: .75em;
+    margin-top: .5em
+}

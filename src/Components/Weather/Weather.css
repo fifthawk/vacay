@@ -1,0 +1,20 @@
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 3em;
+    color: rgb(134, 241, 206);
+    font-size: 1.25em;
+    margin-top: 1em;
+    background-image: url(../../Images/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.weatherHeader {
+    color: hsl(180, 52%, 54%);
+    
+}
+

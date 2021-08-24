@@ -1,0 +1,271 @@
+.foodContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    font-size: 1em;
+    margin-top: 1em;
+    
+
+}
+
+.foodHeader {
+    font-size: 2em;
+    background: hsl(234, 79%, 81%);
+    border-radius: .25em;
+    padding: .25em;
+    color: hsl(173, 15%, 21%)
+}
+
+div {
+    margin-bottom: 1em;
+    padding: 1em;
+    
+}
+
+.one {
+    background: hsl(0, 77%, 83%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em;
+   
+}
+
+.two {
+    background: hsl(180, 100%, 50%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.three {
+    background: hsl(307, 32%, 58%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.four {
+    background: hsl(199, 61%, 50%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+
+
+.five {
+    background: hsl(56, 96%, 70%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+
+
+.six {
+    background: hsl(268, 50%, 59%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.seven {
+    background: rgb(95, 160, 86);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.eight {
+    background: rgb(124, 81, 81);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.nine {
+    background: rgb(111, 140, 235);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.ten {
+    background: rgb(228, 200, 200);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.eleven {
+    background: rgb(206, 219, 89);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+.twelve {
+    background: rgb(104, 92, 96);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em
+}
+
+
+
+
+button {
+    border: 3em;
+    border-radius: 3em;
+    margin-top: 1em;
+    height: 7em;
+    width: 20em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.button1{
+    background: hsl(180, 45%, 72%);
+}
+
+.button1 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button1 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button2{
+    background: hsl(241, 29%, 61%);
+}
+
+.button2 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button2 a:visited {
+    color: hsl(0, 91%, 63%);
+}
+
+.button3{
+    background: hsl(4, 100%, 72%);
+}
+
+.button3 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button3 a:visited {
+    color: hsl(0, 0%, 0%);
+}
+
+.button4{
+    background: hsl(240, 24%, 78%);
+}
+
+.button4 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button4 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button5{
+    background: hsl(110, 72%, 73%);
+}
+
+.button5 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button5 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button6{
+    background: hsl(347, 100%, 74%);
+}
+
+.button6 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button6 a:visited {
+    color: hsl(0, 42%, 14%);
+}
+
+.button7{
+    background: hsl(293, 29%, 61%);
+}
+
+.button7 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button7 a:visited {
+    color: hsl(272, 37%, 7%);
+}
+
+.button8{
+    background: hsl(59, 88%, 78%);
+}
+
+.button8 a:link {
+    color: hsl(0, 95%, 76%);
+}
+
+.button8 a:visited {
+    color: hsl(0, 86%, 11%);
+}
+
+.button9{
+    background: hsl(241, 78%, 62%);
+}
+
+.button9 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button9 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button10{
+    background: hsl(320, 29%, 61%);
+}
+
+.button10 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button10 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button11{
+    background: hsl(24, 29%, 61%);
+}
+
+.button11 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button11 a:visited {
+    color: hsl(0, 80%, 72%);
+}
+
+.button12{
+    background: hsl(140, 29%, 61%);
+}
+
+.button12 a:link {
+    color: hsl(0, 0%, 96%);
+}
+
+.button12 a:visited {
+    color: hsl(0, 80%, 72%);
+}

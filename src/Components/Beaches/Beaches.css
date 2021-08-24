@@ -1,0 +1,24 @@
+.beachesContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../Images/image7.jpg);
+    background-size: cover;
+    border-radius: 3em;
+    margin-top: 1em;
+}
+
+.beachesContainer h1 {
+    background: rgb(35, 74, 145);
+    padding: .25em;
+    font-size: 2.5em;
+    border-radius: .25em;
+    color: whitesmoke;
+}
+
+.beachesContainer a {
+    background: hsl(0, 36%, 54%);
+    border-radius: .25em;
+    font-size: 1.5em;
+    padding: .25em
+}
