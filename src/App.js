@@ -10,7 +10,8 @@ import Food from "./Components/Food/Food.js";
 
 function App() {
   return (
-    <div>
+    <div> 
+      
       <Header />
    <Router>
     <div className = 'bodyContainer'>
