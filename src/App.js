@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Weather />
    <Router>
     <div className = 'bodyContainer'>
       <nav>
@@ -63,6 +62,7 @@ function App() {
       
     </div>
    </Router>
+   <Weather />
    
    </div>
   );
