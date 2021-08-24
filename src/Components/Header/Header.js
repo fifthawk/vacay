@@ -1,10 +1,12 @@
 import './Header.css'
 
 const Header = () => {
+
     return(
         <>
         <div className = 'topHeader'>
-        <h1>Buena Onda</h1>
+        
+        <h1>Buena Onda </h1>
         </div>
         </>
     )

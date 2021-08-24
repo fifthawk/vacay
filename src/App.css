@@ -34,6 +34,12 @@ h2 {
     color: hsla(180, 100%, 25%, 0.986);
 }
 
+.dateTime {
+    text-align: center;
+    color: hsl(0, 0%, 96%);
+    font-size: 1.5em
+}
+
 
 
 
