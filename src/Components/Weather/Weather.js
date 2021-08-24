@@ -30,7 +30,7 @@ const Weather = () => {
          
          <p>Max Temp Today: {weather?.temp_max.toFixed(1)}&#8457;</p>
          
-         <p>Humidity: {weather.humidity}%</p>
+         <p>Humidity: {weather?.humidity}%</p>
        </div>
     )
 }
