@@ -11,9 +11,13 @@ const Weather = () => {
 
     const [weather, setWeather] = useState('');
 
+    // const { REACT_APP_MY_ENV } = process.env;
+
+    console.log(process.env.REACT_APP_API_KEY)
+
     
     useEffect(() => {
-        axios.get('https://api.openweathermap.org/data/2.5/weather?zip=00802&appid=7353796b6bfcfbeeb4fb368ba9c89f7a&units=imperial')
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?zip=00802&appid=${process.env.REACT_APP_API_KEY}&units=imperial`)
         .then(res =>{
             setWeather(res.data.main)
         }).catch(err => console.log(err))
