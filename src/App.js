@@ -12,15 +12,12 @@ function App() {
   return (
     <div>
       <Header />
+      <Weather />
    <Router>
     <div className = 'bodyContainer'>
       <nav>
         <ul>
-          <li>
-            <Link to= "/">Home</Link>
-          </li>
           
-
           <li>
             <Link to= "/food">Food</Link>
           </li>
@@ -44,11 +41,7 @@ function App() {
         </ul>
       </nav>
       <Switch>
-        <Route path ="/">
-          <Weather />
           
-        </Route>
-
         <Route path = "/food">
           <Food />
         </Route>
