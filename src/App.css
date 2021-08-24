@@ -5,20 +5,36 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto 0;
-    background: hsl(0, 100%, 91%);
+    background: hsla(170, 69%, 50%, 0.692);
     border-radius: 3em;
-    border: solid hsl(61, 100%, 58%);
+    border: solid .25em hsl(307, 33%, 80%);
+    font-size: 1.33em;
 }
-ul li {
+ul li a{
     margin: .75em;
+    color: hsl(0, 0%, 99%);
+    
 }
  
 body {
-    background-image: url(../src/Images/image4.jpg);
+  background-image: url(../src/Images/image4.jpg);
   background-size: contain;
   background-repeat: repeat;
     
 } 
+
+h2 {
+    text-align: center;
+    background: hsla(0, 73%, 75%, 0.788);
+    border-radius: 1em;
+    padding: .25em;
+}
+
+.home {
+    color: hsla(180, 100%, 25%, 0.986);
+}
+
+
 
 
 

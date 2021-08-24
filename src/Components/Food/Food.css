@@ -6,16 +6,25 @@
     align-items: center;
     font-size: 1em;
     margin-top: 1em;
+    animation: fadeIn;
+    animation-duration: 3s;
     
 
 }
 
+.foodContainer a {
+    font-size: 1.5em;
+}
+
+
+
 .foodHeader {
-    font-size: 2em;
+    font-size: 3em;
     background: hsl(234, 79%, 81%);
     border-radius: .25em;
     padding: .25em;
-    color: hsl(173, 15%, 21%)
+    color: hsl(173, 15%, 21%);
+
 }
 
 div {
@@ -29,7 +38,6 @@ div {
     text-align: center;
     border-radius: 3em;
     padding-top: 1em;
-   
 }
 
 .two {
