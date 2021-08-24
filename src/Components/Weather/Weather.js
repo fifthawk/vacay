@@ -22,13 +22,13 @@ const Weather = () => {
     return(
         <div className = 'weatherContainer'>
          <h1 className = 'weatherHeader'>Weather</h1>
-         <p>Current Temperature: {weather.temp !== undefined && weather.temp.toFixed(1)}&#8457;</p> 
+         <p>Current Temperature: {weather?.temp.toFixed(1)}&#8457;</p> 
          
-         <p>Feels Like: {weather.feels_like !== undefined && weather.feels_like.toFixed(1)}&#8457;</p>
+         <p>Feels Like: {weather?.feels_like.toFixed(1)}&#8457;</p>
          
-         <p>Min Temp Today: {weather.temp_min !== undefined && weather.temp_min.toFixed(1)}&#8457;</p>
+         <p>Min Temp Today: {weather?.temp_min.toFixed(1)}&#8457;</p>
          
-         <p>Max Temp Today: {weather.temp_max !== undefined && weather.temp_max.toFixed(1)}&#8457;</p>
+         <p>Max Temp Today: {weather?.temp_max.toFixed(1)}&#8457;</p>
          
          <p>Humidity: {weather.humidity}%</p>
        </div>
