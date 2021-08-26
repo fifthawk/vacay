@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 const Weather = () => {
   const [weather, setWeather] = useState("");
   const [icon, setIcon] = useState("");
-  
 
   useEffect(() => {
     axios

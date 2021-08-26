@@ -1,29 +1,37 @@
 .beachesContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(../../Images/image7.jpg);
-    background-size: cover;
-    border-radius: 3em;
-    margin-top: 1em;
-    animation: fadeInDownBig;
-    animation-duration: 2s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../Images/image7.jpg);
+  background-size: cover;
+  border-radius: 3em;
+  margin-top: 1em;
+  animation: fadeInDownBig;
+  animation-duration: 2s;
 }
 
 .beachesContainer h1 {
-    background: rgb(35, 74, 145);
-    padding: .25em;
-    font-size: 2.5em;
-    border-radius: .25em;
-    color: hsl(0, 86%, 72%);
+  background: rgb(35, 74, 145);
+  padding: 0.25em;
+  font-size: 2.5em;
+  border-radius: 0.25em;
+  color: hsl(0, 86%, 72%);
+}
 
+.beachesContainer h3 {
+  font-size: 1.75em;
+  color: hsl(0, 0%, 96%);
+  background: hsl(0, 41%, 12%);
+  padding: 0.25em;
+  border-radius: 0.25em;
+  text-align: center;
 }
 
 .beachesContainer a {
-    background: hsl(0, 40%, 84%);
-    border-radius: .25em;
-    font-size: 1.5em;
-    padding: .25em;
-    color: hsl(180, 74%, 17%);
-
+  background: hsl(0, 40%, 84%);
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  padding: 0.25em;
+  color: hsl(180, 74%, 17%);
+  text-align: center;
 }

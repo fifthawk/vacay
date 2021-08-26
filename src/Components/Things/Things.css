@@ -1,44 +1,71 @@
-
 .thingsContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .thingsContainer h1 {
-    font-size: 4em;
-    color: hsl(143, 100%, 50%);
-    background-image: url(../../Images/image8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: .75em;
-    padding: .5em;
-    margin: 1em
-
+  font-size: 4em;
+  color: hsl(0, 0%, 100%);
+  background-image: url(../../Images/image8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  margin: 1em;
 }
 
 .thingsContainer h3 {
-    font-size: 3em;
-    background-color: hsl(0, 81%, 68%);
-    border-radius: .25em;
-    padding: .25em;
-    border-style: groove;
-    border-color: rgb(179, 206, 206);
-    box-shadow: hsl(0,81%, 68%) .25em .23em .5em .1em;
+  font-size: 3em;
+  background-color: hsl(0, 81%, 68%);
+  border-radius: 0.25em;
+  padding: 0.25em;
+  border-style: groove;
+  border-color: rgb(179, 206, 206);
+  box-shadow: hsl(0, 81%, 68%) 0.25em 0.23em 0.5em 0.1em;
 }
 
 .thingsContainer a {
-    font-size: 1.75em;
-    color: whitesmoke;
+  font-size: 1.75em;
+  color: whitesmoke;
+  margin-top: 1em;
 }
 
 hr {
-    width: 15em;
-    margin: auto 0;
-    margin-top: 1em;
+  width: 15em;
+  margin: auto 0;
+  margin-top: 1em;
+}
 
+.map {
+  width: 15em;
+  height: 25em;
+  padding-bottom: 1em;
+  border: none;
+}
+
+.thingsList {
+  font-size: 1.5em;
+  padding: 1.5em;
+  border-radius: 0.2em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.thingsContainer ul {
+  scroll-behavior: scroll;
+}
+
+.thingsList li {
+  padding: 0.25em;
+}
+
+.beachDesc {
+  color: hsl(0, 0%, 100%);
+  font-size: 1em;
+  /* width: 10em; */
+  text-align: left;
 }
