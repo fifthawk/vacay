@@ -12,6 +12,17 @@
 
 .foodContainer a {
   font-size: 1.5em;
+  font-size: 2em;
+}
+
+.gladys {
+  color: rgb(0, 0, 0);
+}
+
+.gladys1 {
+  color: hsl(212, 67%, 38%);
+  background: rgba(255, 255, 255, 0.74);
+  padding: -1em;
 }
 
 .foodHeader {
@@ -121,6 +132,14 @@ a {
 
 .twelve {
   background-image: url(../../Images/udder.jpg);
+  background-size: cover;
+  text-align: center;
+  border-radius: 1.25em;
+  padding-top: 1em;
+}
+
+.thirteen {
+  background-image: url(../../Images/R&D.jpg);
   background-size: cover;
   text-align: center;
   border-radius: 1.25em;
@@ -262,7 +281,7 @@ button {
 }
 
 .button11 a:link {
-  color: hsl(0, 0%, 96%);
+  color: hsl(210, 100%, 0%);
 }
 
 .button11 a:visited {
@@ -280,3 +299,19 @@ button {
 .button12 a:visited {
   color: hsl(0, 80%, 72%);
 }
+
+.button13 {
+  background: rgba(106, 151, 255, 0.61);
+}
+
+.button13 a:link {
+  color: hsl(180, 100%, 3%);
+}
+
+
+.button13 a:visited {
+  color: hsl(0, 0%, 100%);
+  
+}
+
+

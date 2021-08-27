@@ -29,7 +29,7 @@ const Food = () => {
       </div>
 
       <div className="three">
-        <a href="https://gladyscafe.com/"> Gladys' Cafe</a>
+        <a className = 'gladys1' href="https://gladyscafe.com/"> Gladys' Cafe</a>
         <br />
         <button className="button3">
           <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Gladys'+Caf%C3%A9,+Charlotte+Amalie,+St.+Thomas,+USVI/@18.3541288,-64.9328674,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x8c051aae1ebfbf2f:0x3a7891997bf772cb!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051af248955555:0xbdc530f8d4e8c014!2m2!1d-64.9326795!2d18.3407139">
@@ -41,7 +41,7 @@ const Food = () => {
       </div>
 
       <div className="four">
-        <a href="https://www.tripadvisor.com/Restaurant_Review-g147405-d5264406-Reviews-Sugarcane_Grille-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
+        <a className = 'gladys' href="https://www.tripadvisor.com/Restaurant_Review-g147405-d5264406-Reviews-Sugarcane_Grille-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
           Sugercane Grille
         </a>
         <br />
@@ -111,7 +111,7 @@ const Food = () => {
       </div>
 
       <div className="nine">
-        <a href="https://www.tripadvisor.com/Restaurant_Review-g147405-d1206542-Reviews-Amalia_Cafe-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
+        <a className = 'gladys' href="https://www.tripadvisor.com/Restaurant_Review-g147405-d1206542-Reviews-Amalia_Cafe-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
           Amalia Cafe
         </a>
         <br />
@@ -139,8 +139,8 @@ const Food = () => {
       </div>
 
       <div className="eleven">
-        <a href="https://www.tripadvisor.com/Restaurant_Review-g147405-d3573693-Reviews-Greengos_Caribbean_Cantina-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
-          Greengos Carribean Cantina
+        <a className = 'gladys' href="https://www.tripadvisor.com/Restaurant_Review-g147405-d3573693-Reviews-Greengos_Caribbean_Cantina-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
+          Greengos Cantina
         </a>
         <br />
         <button className="button11">
@@ -154,13 +154,27 @@ const Food = () => {
 
       <div className="twelve">
         <a href="https://www.tripadvisor.com/Restaurant_Review-g147405-d3493907-Reviews-Udder_Delite-Charlotte_Amalie_St_Thomas_U_S_Virgin_Islands.html">
-          Udder Delite - Ice Cream
+          Udder Delite
         </a>
         <br />
         <button className="button12">
           <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Udder+Delights+Ice+Cream+Parlor,+Magen's+Bay+Road,+St.+Thomas,+USVI/@18.3639679,-64.9217343,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x8c051aae1ebfbf2f:0x3a7891997bf772cb!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051b33354171ef:0x40d0f4a02befbc21!2m2!1d-64.9148892!2d18.3601557">
             Directions ~6 Minute Drive
           </a>
+        </button>
+        <br />
+        <br />
+      </div>
+
+      <div className="thirteen">
+        <a className = 'gladys'href="https://www.tripadvisor.com/Restaurant_Review-g147404-d1752040-Reviews-G_D_s_Seafood-St_Thomas_U_S_Virgin_Islands.html">
+          G & D's Seafood
+        </a>
+        <br />
+        <button className="button13">
+          <a href="https://www.google.com/maps/dir/1222+Oceanside+Road,+St.+Thomas,+USVI/G+%26+D's+Seafood+Restaurant,+%2320+Krum+Bay,+St+Thomas+00802,+U.S.+Virgin+Islands/@18.3363539,-64.9523051,15z/data=!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051affeed42539:0x359dabccab75a9f4!2m2!1d-64.9522915!2d18.3362975!3e0">
+            Directions ~20 Minute Drive
+            </a>
         </button>
         <br />
         <br />

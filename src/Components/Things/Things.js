@@ -113,6 +113,137 @@ const Things = () => {
           </a>
         </ul>
 
+        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
+          Secret Harbor
+        </a>
+        <ul className="thingsList">
+          <li>🚗 Free Parking</li>
+
+          <li>🤿 Snorkel Gear</li>
+
+          <li>🛖 Beach Bar</li>
+
+          <li>🚻 Restrooms</li>
+
+          <li>🪑 Chair Rentals</li>
+          <details>
+            <summary> More Info</summary>
+            <p className="beachDesc">
+              Secret Harbor is a protected bay with calm water, quite a bit of
+              underwater life, and is one of St. Thomas’s best snorkeling
+              beaches. Many people head for the rockier right side of the beach,
+              but the double reef is actually a bit further out on the left of
+              the beach. You’re likely to see plenty of colorful coral, lots of
+              fish, maybe a turtle in the middle, and, if you’re lucky, possibly
+              even an octopus. The resort has a restaurant on site, and there is
+              a local dive shop on the beach where you can get a snorkel rental.
+              St Thomas is a popular island with a cruise port, but Secret
+              Harbor remains relatively calm and secluded. As always, I
+              recommend you check in with the dive shop for recent tips on where
+              to snorkel and what marine life has been seen lately. They’re
+              always a treasure trove of information.{" "}
+            </p>
+          </details>
+          <br />
+          <a href="https://www.google.com/maps/dir/1222+Oceanside+Road,+St.+Thomas,+USVI/Secret+Harbor+Beach,+St+Thomas+00802,+U.S.+Virgin+Islands/@18.3425092,-64.9259351,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c0511012dd1b3bd:0xfb1d20a5238fe7ee!2m2!1d-64.8529185!2d18.3180101!3e0">
+            Directions
+          </a>
+        </ul>
+
+        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
+          Lindquist Beach at Smith Bay
+        </a>
+        <ul className="thingsList">
+          <li>🚗 $2 Parking</li>
+
+          <li>💰 $5 entry per person</li>
+
+          <li>🧺 Picnic Area</li>
+
+          <li>🚻 Restrooms & Showers 🚿</li>
+          <details>
+            <summary> More Info</summary>
+            <p className="beachDesc">
+              The seagrass as you enter the beach is a great place to spot
+              turtles and rays. As you swim out a bit further, you’ll find a
+              beautiful and long reef. Make sure to heed any warnings about
+              strong surf. On especially windy days, the area around the reef
+              can have large breakers that really toss you around. Our favorite
+              part about this beach is the lack of crowds. Its seems to be a
+              local favorite, and is not frequented by cruisers. So, even
+              mid-day, the beach is usually sparsely crowded.{" "}
+            </p>
+          </details>
+          <br />
+          <a href="https://www.google.com/maps/dir/1222+Oceanside+Road,+St.+Thomas,+USVI/Lindquist+Beach,+St.+Thomas,+USVI/@18.3512058,-64.9057259,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c0511b49dcd2df3:0x62227ce4233012f5!2m2!1d-64.8566079!2d18.3385273!3e0">
+            Directions
+          </a>
+        </ul>
+
+        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
+          Brewer's Bay
+        </a>
+        <ul className="thingsList">
+          <li>🚗 Free Street Parking</li>
+
+          <li>🥡 Food Trucks</li>
+
+          <li>🚻 Restrooms & Showers 🚿</li>
+          <details>
+            <summary> More Info</summary>
+            <p className="beachDesc">
+              Brewer’s Bay is the perfect beach to get away from all of the
+              cruise ship crowd and tourists on busy days. It’s much more of a
+              locals beach with several food trucks and vendors selling food
+              along the street. Although there are really no coral reefs or many
+              fish to be seen underwater, Brewer’s Bay is one of the best spots
+              on the island to find sea turtles grazing on the seagrass. With
+              limited crowds and plenty of grass to munch on, it’s a favorite
+              spot for them and we’ve seen turtles every time we’ve been to
+              Brewers Bay. In addition to checking out the turtles underwater,
+              the beach lies adjacent to the landing strip for the airport on
+              St. Thomas. So, it’s a fun spot, especially for kids, to grab a
+              seat under a shade tree and watch the planes land..{" "}
+            </p>
+          </details>
+          <br />
+          <a href="https://www.google.com/maps/dir/1222+Oceanside+Road,+St.+Thomas,+USVI/Brewers+Bay+Beach,+Charlotte+Amalie+West,+St.+Thomas,+USVI/@18.3512058,-64.9057259,14z/data=!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051b0b47a3d2b9:0x8a8488729938bd99!2m2!1d-64.9769925!2d18.3435476!3e0">
+            Directions
+          </a>
+        </ul>
+
+        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
+          Hull Bay
+        </a>
+        <ul className="thingsList">
+          <li>🚗 Free Parking</li>
+
+          <li>🛖 Beach Bar</li>
+
+          <li>🍜 Restaurant</li>
+
+          <li>🚻 Restrooms </li>
+          <details>
+            <summary> More Info</summary>
+            <p className="beachDesc">
+              Hull Bay is definitely a locals beach, but it’s a good spot to get
+              away from the crowds and enjoy some good snorkeling. The beach
+              area is mostly sand, but once in the water it’s quite rocky. Often
+              overlooked by people wanting to snorkel St. Thomas, Hull Bay is
+              another great spot to get away from the crowds at a more local
+              beach. You will find some small fish and sea creatures among the
+              rocks near the shore, but if you head out deeper there’s some
+              large beautiful coral and interesting marine life like lobster or
+              squid. The reef at Hull Bay runs from the right to the middle of
+              the bay and is about 40 yards from shore{" "}
+            </p>
+          </details>
+          <br />
+          <a href="https://www.google.com/maps/dir/1222+Oceanside+Road,+St.+Thomas,+USVI/Hull+Bay+Beach,+St.+Thomas,+USVI/@18.3603589,-64.9534773,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051b2883c8ea03:0x76247953ddf9aeb8!2m2!1d-64.9568126!2d18.3691226!3e0">
+            Directions
+          </a>
+        </ul>
+
         <a href="https://funboatday.com/snorkeling/">
           New Horizon's Snorkeling
         </a>
