@@ -9,30 +9,25 @@ import Town from "./Components/Town/Town.js";
 import Food from "./Components/Food/Food.js";
 
 function App() {
- const countDownDate = new Date('October 17 2021 12:00:00').getTime();
- let now = new Date().getTime();
- let distance = countDownDate - now;
- let days = Math.floor(distance / (1000 * 60 * 60 * 24));
- let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
- let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
- let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
+  const countDownDate = new Date("October 17 2021 12:00:00").getTime();
+  let now = new Date().getTime();
+  let distance = countDownDate - now;
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
   return (
     <div>
       <Header />
-    <div>
-      <p class= 'dateTime'>{days > 0 ? `${days} days until we leave!` : 'Get Ready!'} </p>
-      
-    </div>
+      <div>
+        <p class="dateTime">
+          {days > 0 ? `${days} days until we leave!` : "Get Ready!"}{" "}
+        </p>
+      </div>
       <Router>
         <div className="bodyContainer">
           <nav>
-            <ul className = 'list'>
+            <ul className="list">
               <li>
-                <a href="/">
-                  Home 🏠
-                </a>
+                <a href="/">Home 🏠</a>
               </li>
 
               <li>
