@@ -10,7 +10,7 @@
     border: solid .25em hsl(307, 33%, 80%);
     font-size: 1.33em;
     margin-top: -2em;
-    margin-bottom: -2em;
+    margin-bottom: .25em;
 }
 ul li a{
     margin: .75em;
