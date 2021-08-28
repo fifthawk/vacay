@@ -4,42 +4,7 @@ const Things = () => {
   return (
     <div>
       <div className="thingsContainer">
-        <h1 class="animate__animated animate__backInDown">Things to Do!</h1>
-
-        <h3>Nature</h3>
-        <a href="https://www.stthomasbotanicalgarden.com/">Botanical Garden </a>
-        <br />
-        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Phantasea+Tropical+Botanical+Garden,+ST+THOMAS,+VI,+USVI/@18.3577292,-64.9354461,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051ae83103f4d3:0xa57f616da5263072!2m2!1d-64.9389492!2d18.3542565!3e0">
-          Directions for Botanical Garden
-        </a>
-        <br />
-        <br />
-        <hr />
-        <br />
-
-        <a href="https://coralworldvi.com/">Coral World Ocean Park</a>
-        <br />
-        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Coral+World+Ocean+Park,+St+Thomas,+Virgin+Islands,+USVI/@18.3539245,-64.909222,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c0510485760dddf:0xcf59fa815656357c!2m2!1d-64.8636!2d18.349389!3e0">
-          Directions for Coral World
-        </a>
-        <br />
-        <br />
-        <hr />
-        <br />
-
-        <a href="https://www.tripadvisor.com/Attraction_Review-g147404-d147722-Reviews-Mountain_Top-St_Thomas_U_S_Virgin_Islands.html">
-          Mountain Top (🍌 daiquiri)
-        </a>
-        <br />
-        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Mountain+Top,+St.+Thomas,+USVI/@18.3560138,-64.9467418,18.66z/data=!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051ae74f4708c1:0xe09502af7f6b9738!2m2!1d-64.9470118!2d18.355969!3e0">
-          Directions for Mountain Top
-        </a>
-        <br />
-        <br />
-        <hr />
-        <br />
-
-        <h3>Snorkeling</h3>
+        <h3 class="animate__animated animate__backInDown">Snorkeling</h3>
 
         <iframe
           className="map"
@@ -48,10 +13,10 @@ const Things = () => {
           height="480"
           title="map"
         ></iframe>
-        <br />
-        <br />
-        <a href="https://cokidive.com/coki-beach/">Coki Beach</a>
+        <a href ="https://snorkelandhike.com/st-thomas-snorkeling/">More Information on Beaches/Boat Trips</a>
+
         <ul className="thingsList">
+          <a href="https://cokidive.com/coki-beach/">Coki Beach</a>
           <li>🚗 $5 Parking</li>
 
           <li>🤿 Snorkel Gear & Dive Rentals</li>
@@ -78,11 +43,12 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
-        <a href="https://snorkelandhike.com/sapphire-beach-st-thomas-snorkeling/#beach-snorkel">
-          Sapphire Beach
-        </a>
         <ul className="thingsList">
+          <a href="https://snorkelandhike.com/sapphire-beach-st-thomas-snorkeling/#beach-snorkel">
+            Sapphire Beach
+          </a>
           <li>🚗 Free Parking</li>
 
           <li>🤿 Snorkel Gear</li>
@@ -112,11 +78,12 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
-        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
-          Secret Harbor
-        </a>
         <ul className="thingsList">
+          <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
+            Secret Harbor
+          </a>
           <li>🚗 Free Parking</li>
 
           <li>🤿 Snorkel Gear</li>
@@ -149,11 +116,12 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
-        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
-          Lindquist Beach at Smith Bay
-        </a>
         <ul className="thingsList">
+          <a href="https://www.tripadvisor.com/Attraction_Review-g12012628-d967783-Reviews-Lindqvist_Beach-Smith_Bay_East_End_St_Thomas_U_S_Virgin_Islands.html">
+            Lindquist Beach at Smith Bay
+          </a>
           <li>🚗 $2 Parking</li>
 
           <li>💰 $5 entry per person</li>
@@ -179,11 +147,12 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
-        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
-          Brewer's Bay
-        </a>
         <ul className="thingsList">
+          <a href="https://www.tripadvisor.com/Attraction_Review-g147404-d148868-Reviews-Brewer_s_Bay-St_Thomas_U_S_Virgin_Islands.html">
+            Brewer's Bay
+          </a>
           <li>🚗 Free Street Parking</li>
 
           <li>🥡 Food Trucks</li>
@@ -211,11 +180,12 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
-        <a href="https://snorkelandhike.com/secret-harbor-st-thomas-snorkeling/">
-          Hull Bay
-        </a>
         <ul className="thingsList">
+          <a href="https://www.tripadvisor.com/Attraction_Review-g147404-d148952-Reviews-Hull_Bay-St_Thomas_U_S_Virgin_Islands.html">
+            Hull Bay
+          </a>
           <li>🚗 Free Parking</li>
 
           <li>🛖 Beach Bar</li>
@@ -243,6 +213,7 @@ const Things = () => {
             Directions
           </a>
         </ul>
+        <hr />
 
         <a href="https://funboatday.com/snorkeling/">
           New Horizon's Snorkeling
@@ -260,8 +231,40 @@ const Things = () => {
           {" "}
           Directions for JJ's
         </a>
+        <h3 class="animate__animated animate__backInDown">Nature</h3>
+        <a href="https://www.stthomasbotanicalgarden.com/">Botanical Garden </a>
         <br />
-        <h3>Scuba Diving</h3>
+        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Phantasea+Tropical+Botanical+Garden,+ST+THOMAS,+VI,+USVI/@18.3577292,-64.9354461,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051ae83103f4d3:0xa57f616da5263072!2m2!1d-64.9389492!2d18.3542565!3e0">
+          Directions for Botanical Garden
+        </a>
+        <br />
+        <br />
+        <hr />
+        <br />
+
+        <a href="https://coralworldvi.com/">Coral World Ocean Park</a>
+        <br />
+        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Coral+World+Ocean+Park,+St+Thomas,+Virgin+Islands,+USVI/@18.3539245,-64.909222,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c0510485760dddf:0xcf59fa815656357c!2m2!1d-64.8636!2d18.349389!3e0">
+          Directions for Coral World
+        </a>
+        <br />
+        <br />
+        <hr />
+        <br />
+
+        <a href="https://www.tripadvisor.com/Attraction_Review-g147404-d147722-Reviews-Mountain_Top-St_Thomas_U_S_Virgin_Islands.html">
+          Mountain Top (🍌 daiquiri)
+        </a>
+        <br />
+        <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Mountain+Top,+St.+Thomas,+USVI/@18.3560138,-64.9467418,18.66z/data=!4m14!4m13!1m5!1m1!1s0x8c051aae1ebfbf2f:0xc1aef58f56b3696a!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051ae74f4708c1:0xe09502af7f6b9738!2m2!1d-64.9470118!2d18.355969!3e0">
+          Directions for Mountain Top
+        </a>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <h3 class="animate__animated animate__backInDown">Scuba Diving</h3>
         <a href="https://cokidive.com/">Coki Dive</a>
         <br />
         <a href="https://www.google.com/maps/dir/1222+Oceanside+Rd,+St+Thomas+00802,+USVI/Coki+Dive+Center,+Coki+Point+Road,+Smith+Bay,+St.+Thomas,+USVI/@18.3512058,-64.9102997,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x8c051aae1ebfbf2f:0x3a7891997bf772cb!2m2!1d-64.9162487!2d18.3676744!1m5!1m1!1s0x8c051036bee039f7:0xfa2d3917f0156c31!2m2!1d-64.8660354!2d18.3493766">

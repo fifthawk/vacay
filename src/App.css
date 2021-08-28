@@ -1,4 +1,4 @@
-ul {
+.list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,6 +9,8 @@ ul {
     border-radius: 3em;
     border: solid .25em hsl(307, 33%, 80%);
     font-size: 1.33em;
+    margin-top: -2em;
+    margin-bottom: -2em;
 }
 ul li a{
     margin: .75em;
@@ -37,7 +39,7 @@ h2 {
 .dateTime {
     text-align: center;
     color: hsl(0, 0%, 96%);
-    font-size: 1.5em
+    font-size: 2.5em
 }
 
 

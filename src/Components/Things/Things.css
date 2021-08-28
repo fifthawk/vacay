@@ -47,17 +47,31 @@ hr {
 }
 
 .thingsList {
-  font-size: 1.5em;
-  padding: 1.5em;
+  /* font-size: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border-radius: 0.2em;
   display: flex;
   flex-direction: column;
+  margin-top: 1em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-top: 1em;
+  background: hsla(239, 35%, 51%, 0.562);
+  border-radius: 3em;
+  border: solid .25em hsl(65, 33%, 80%);
+  font-size: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 0.2em;
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsla(180, 89%, 72%, 0.459) .0em .25em 1em .5em ;
+  
 }
 
-.thingsContainer ul {
-  scroll-behavior: scroll;
-}
 
 .thingsList li {
   padding: 0.25em;
@@ -69,3 +83,4 @@ hr {
   /* width: 10em; */
   text-align: left;
 }
+
