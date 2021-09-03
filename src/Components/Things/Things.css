@@ -6,22 +6,13 @@
   text-align: center;
 }
 
-.thingsContainer h1 {
-  font-size: 4em;
-  color: hsl(0, 0%, 100%);
-  background-image: url(../../Images/image8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0.25em;
-  padding: 0.5em;
-  margin: 1em;
-}
+
 
 .thingsContainer h3 {
   font-size: 3em;
   background-color: hsl(0, 81%, 68%);
-  border-radius: 0.25em;
-  padding: 0.25em;
+  border-radius: 1em .25em;
+  padding: 0.5em;
   border-style: groove;
   border-color: rgb(179, 206, 206);
   box-shadow: hsl(0, 81%, 68%) 0.25em 0.23em 0.5em 0.1em;
