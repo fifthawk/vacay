@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./App.css";
-import Header from "./Components/Header/Header.js";
 import Weather from "./Components/Weather/Weather.js";
 import Things from "./Components/Things/Things.js";
 import Beaches from "./Components/Beaches/Beaches.js";
