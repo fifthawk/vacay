@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div>
-      <Header />
       <div>
         <p class="dateTime">
           {days > 0 ? `${days} days until we leave!` : "Get Ready!"}{" "}

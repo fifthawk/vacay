@@ -3,7 +3,26 @@ body {
   
 
 }
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: -2em;
+}
 
-/* background-image: url("./Images/background.jpg");
-background-size: cover; */
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 138px;
+  overflow-x: hidden;
+}
+
+.wave .shape-fill {
+  fill: hsla(172, 53%, 44%, 0.603);
+}
+
 
